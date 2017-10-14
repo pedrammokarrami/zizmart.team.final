@@ -15,6 +15,7 @@
 		4362954F1F8E264F00F40C5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4362954D1F8E264F00F40C5B /* LaunchScreen.storyboard */; };
 		4362955A1F8E264F00F40C5B /* zizmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436295591F8E264F00F40C5B /* zizmartTests.swift */; };
 		436295651F8E264F00F40C5B /* zizmartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436295641F8E264F00F40C5B /* zizmartUITests.swift */; };
+		43E17DED1F9219C30006183B /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E17DEC1F9219C30006183B /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		436295601F8E264F00F40C5B /* zizmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zizmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		436295641F8E264F00F40C5B /* zizmartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zizmartUITests.swift; sourceTree = "<group>"; };
 		436295661F8E264F00F40C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43E17DEC1F9219C30006183B /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		436295411F8E264F00F40C5B /* zizmart */ = {
 			isa = PBXGroup;
 			children = (
+				43E17DEC1F9219C30006183B /* RoundButton.swift */,
 				436295421F8E264F00F40C5B /* AppDelegate.swift */,
 				436295441F8E264F00F40C5B /* FirstViewController.swift */,
 				436295461F8E264F00F40C5B /* SecondViewController.swift */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43E17DED1F9219C30006183B /* RoundButton.swift in Sources */,
 				436295471F8E264F00F40C5B /* SecondViewController.swift in Sources */,
 				436295431F8E264F00F40C5B /* AppDelegate.swift in Sources */,
 				436295451F8E264F00F40C5B /* FirstViewController.swift in Sources */,
@@ -431,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5GN894ZM32;
 				INFOPLIST_FILE = zizmart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zizmart.market.zizmart;
@@ -445,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5GN894ZM32;
 				INFOPLIST_FILE = zizmart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zizmart.market.zizmart;
