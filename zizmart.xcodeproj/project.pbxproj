@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		436295431F8E264F00F40C5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436295421F8E264F00F40C5B /* AppDelegate.swift */; };
 		436295451F8E264F00F40C5B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436295441F8E264F00F40C5B /* FirstViewController.swift */; };
-		436295471F8E264F00F40C5B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436295461F8E264F00F40C5B /* SecondViewController.swift */; };
+		436295471F8E264F00F40C5B /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436295461F8E264F00F40C5B /* QRCodeViewController.swift */; };
 		4362954A1F8E264F00F40C5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436295481F8E264F00F40C5B /* Main.storyboard */; };
 		4362954C1F8E264F00F40C5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4362954B1F8E264F00F40C5B /* Assets.xcassets */; };
 		4362954F1F8E264F00F40C5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4362954D1F8E264F00F40C5B /* LaunchScreen.storyboard */; };
 		4362955A1F8E264F00F40C5B /* zizmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436295591F8E264F00F40C5B /* zizmartTests.swift */; };
 		436295651F8E264F00F40C5B /* zizmartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436295641F8E264F00F40C5B /* zizmartUITests.swift */; };
+		43A774761F97749000A151C1 /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A774751F97749000A151C1 /* QRScannerController.swift */; };
 		43E17DED1F9219C30006183B /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E17DEC1F9219C30006183B /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +40,7 @@
 		4362953F1F8E264F00F40C5B /* zizmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zizmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		436295421F8E264F00F40C5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		436295441F8E264F00F40C5B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		436295461F8E264F00F40C5B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		436295461F8E264F00F40C5B /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
 		436295491F8E264F00F40C5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4362954B1F8E264F00F40C5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4362954E1F8E264F00F40C5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +51,7 @@
 		436295601F8E264F00F40C5B /* zizmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zizmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		436295641F8E264F00F40C5B /* zizmartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zizmartUITests.swift; sourceTree = "<group>"; };
 		436295661F8E264F00F40C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43A774751F97749000A151C1 /* QRScannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
 		43E17DEC1F9219C30006183B /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,7 +106,8 @@
 				43E17DEC1F9219C30006183B /* RoundButton.swift */,
 				436295421F8E264F00F40C5B /* AppDelegate.swift */,
 				436295441F8E264F00F40C5B /* FirstViewController.swift */,
-				436295461F8E264F00F40C5B /* SecondViewController.swift */,
+				43A774751F97749000A151C1 /* QRScannerController.swift */,
+				436295461F8E264F00F40C5B /* QRCodeViewController.swift */,
 				436295481F8E264F00F40C5B /* Main.storyboard */,
 				4362954B1F8E264F00F40C5B /* Assets.xcassets */,
 				4362954D1F8E264F00F40C5B /* LaunchScreen.storyboard */,
@@ -266,7 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				43E17DED1F9219C30006183B /* RoundButton.swift in Sources */,
-				436295471F8E264F00F40C5B /* SecondViewController.swift in Sources */,
+				436295471F8E264F00F40C5B /* QRCodeViewController.swift in Sources */,
+				43A774761F97749000A151C1 /* QRScannerController.swift in Sources */,
 				436295431F8E264F00F40C5B /* AppDelegate.swift in Sources */,
 				436295451F8E264F00F40C5B /* FirstViewController.swift in Sources */,
 			);
