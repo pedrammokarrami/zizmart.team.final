@@ -1,12 +1,14 @@
 //
 //  AppDelegate.swift
-//  zizmart
+//Users/pedrammokarrami/Desktop/zizmart/zizmart.xcodeproj//  zizmart
 //
 //  Created by sarir on 7/19/1396 AP.
 //  Copyright © 1396 zizmart. All rights reserved.
 //
 
 import UIKit
+import CoreData
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
         return true
     }
 
