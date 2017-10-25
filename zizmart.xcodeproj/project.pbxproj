@@ -19,7 +19,6 @@
 		43A774761F97749000A151C1 /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A774751F97749000A151C1 /* QRScannerController.swift */; };
 		43E17DED1F9219C30006183B /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E17DEC1F9219C30006183B /* RoundButton.swift */; };
 		A00251E6C536D5E86F08DE61 /* Pods_zizmart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2336394C28FE425516AA07 /* Pods_zizmart.framework */; };
-		BC134FA41F9E2D3C00957755 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC134FA31F9E2D3C00957755 /* GoogleService-Info.plist */; };
 		D10A3D660CD70210B836AC70 /* Pods_zizmartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3396FB15E900357E06046D5F /* Pods_zizmartTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +42,7 @@
 /* Begin PBXFileReference section */
 		0CAD99D1880120281AF782A6 /* Pods-zizmartUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zizmartUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-zizmartUITests/Pods-zizmartUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3396FB15E900357E06046D5F /* Pods_zizmartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zizmartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		431C1C3C1FA086FE00BF9D19 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4362953F1F8E264F00F40C5B /* zizmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zizmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		436295421F8E264F00F40C5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		436295441F8E264F00F40C5B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +62,6 @@
 		6E2336394C28FE425516AA07 /* Pods_zizmart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zizmart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F4BFC6F0CC0B20BAB53778 /* Pods-zizmart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zizmart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zizmart/Pods-zizmart.debug.xcconfig"; sourceTree = "<group>"; };
 		A334D14D7117141260F162BB /* Pods-zizmartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zizmartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zizmartTests/Pods-zizmartTests.debug.xcconfig"; sourceTree = "<group>"; };
-		BC134FA31F9E2D3C00957755 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BDA42C15C8E38C079FF4EE63 /* Pods-zizmartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zizmartTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-zizmartTests/Pods-zizmartTests.release.xcconfig"; sourceTree = "<group>"; };
 		CE785C7A80654DBABEDBC059 /* Pods-zizmartUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zizmartUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zizmartUITests/Pods-zizmartUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D6178EA404FBA939624865E1 /* Pods-zizmart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zizmart.release.xcconfig"; path = "Pods/Target Support Files/Pods-zizmart/Pods-zizmart.release.xcconfig"; sourceTree = "<group>"; };
@@ -142,8 +141,8 @@
 				436295461F8E264F00F40C5B /* QRCodeViewController.swift */,
 				436295481F8E264F00F40C5B /* Main.storyboard */,
 				4362954B1F8E264F00F40C5B /* Assets.xcassets */,
-				BC134FA31F9E2D3C00957755 /* GoogleService-Info.plist */,
 				4362954D1F8E264F00F40C5B /* LaunchScreen.storyboard */,
+				431C1C3C1FA086FE00BF9D19 /* GoogleService-Info.plist */,
 				436295501F8E264F00F40C5B /* Info.plist */,
 			);
 			path = zizmart;
@@ -294,7 +293,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4362954F1F8E264F00F40C5B /* LaunchScreen.storyboard in Resources */,
-				BC134FA41F9E2D3C00957755 /* GoogleService-Info.plist in Resources */,
 				4362954C1F8E264F00F40C5B /* Assets.xcassets in Resources */,
 				4362954A1F8E264F00F40C5B /* Main.storyboard in Resources */,
 			);
