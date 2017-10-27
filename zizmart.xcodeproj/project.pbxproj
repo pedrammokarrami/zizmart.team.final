@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4318FA981FA1E1B700FB5ECA /* MapViewController..swift in Sources */ = {isa = PBXBuildFile; fileRef = 4318FA971FA1E1B700FB5ECA /* MapViewController..swift */; };
 		436295431F8E264F00F40C5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436295421F8E264F00F40C5B /* AppDelegate.swift */; };
 		436295451F8E264F00F40C5B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436295441F8E264F00F40C5B /* FirstViewController.swift */; };
 		436295471F8E264F00F40C5B /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436295461F8E264F00F40C5B /* QRCodeViewController.swift */; };
@@ -16,6 +17,7 @@
 		4362955A1F8E264F00F40C5B /* zizmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436295591F8E264F00F40C5B /* zizmartTests.swift */; };
 		436295651F8E264F00F40C5B /* zizmartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436295641F8E264F00F40C5B /* zizmartUITests.swift */; };
 		43A774761F97749000A151C1 /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A774751F97749000A151C1 /* QRScannerController.swift */; };
+		43CBD8051FA3D0860060F036 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CBD8041FA3D0860060F036 /* CoreLocation.framework */; };
 		43E17DED1F9219C30006183B /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E17DEC1F9219C30006183B /* RoundButton.swift */; };
 		50CEA8D79BE31A7EC063EF4B /* Pods_zizmartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2CF974C4D074EDE19655AF /* Pods_zizmartTests.framework */; };
 		6740C7A586867DCC6DC1F098 /* Pods_zizmart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25828D76D545DEC82E086FC4 /* Pods_zizmart.framework */; };
@@ -42,6 +44,7 @@
 /* Begin PBXFileReference section */
 		25828D76D545DEC82E086FC4 /* Pods_zizmart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zizmart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C3C7E5E56A5247B3531ADDB /* Pods_zizmartUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zizmartUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4318FA971FA1E1B700FB5ECA /* MapViewController..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapViewController..swift; path = /Users/sarir/Desktop/ZIZMART/zizmart/zizmart/MapViewController..swift; sourceTree = "<absolute>"; };
 		433D68481FA0D77F003C9675 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4362953F1F8E264F00F40C5B /* zizmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zizmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		436295421F8E264F00F40C5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +61,7 @@
 		436295641F8E264F00F40C5B /* zizmartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zizmartUITests.swift; sourceTree = "<group>"; };
 		436295661F8E264F00F40C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43A774751F97749000A151C1 /* QRScannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
+		43CBD8041FA3D0860060F036 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		43E17DEC1F9219C30006183B /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		686CCFF948C3EFE64424640A /* Pods-zizmartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zizmartTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-zizmartTests/Pods-zizmartTests.release.xcconfig"; sourceTree = "<group>"; };
 		6C2CF974C4D074EDE19655AF /* Pods_zizmartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zizmartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43CBD8051FA3D0860060F036 /* CoreLocation.framework in Frameworks */,
 				6740C7A586867DCC6DC1F098 /* Pods_zizmart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -121,6 +126,7 @@
 		436295411F8E264F00F40C5B /* zizmart */ = {
 			isa = PBXGroup;
 			children = (
+				4318FA971FA1E1B700FB5ECA /* MapViewController..swift */,
 				43E17DEC1F9219C30006183B /* RoundButton.swift */,
 				436295421F8E264F00F40C5B /* AppDelegate.swift */,
 				436295441F8E264F00F40C5B /* FirstViewController.swift */,
@@ -169,6 +175,7 @@
 		D186AABC67704B09B0603ADF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				43CBD8041FA3D0860060F036 /* CoreLocation.framework */,
 				25828D76D545DEC82E086FC4 /* Pods_zizmart.framework */,
 				6C2CF974C4D074EDE19655AF /* Pods_zizmartTests.framework */,
 				3C3C7E5E56A5247B3531ADDB /* Pods_zizmartUITests.framework */,
@@ -253,7 +260,12 @@
 				TargetAttributes = {
 					4362953E1F8E264F00F40C5B = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					436295541F8E264F00F40C5B = {
 						CreatedOnToolsVersion = 9.0;
@@ -330,7 +342,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		2CD893811A94853933147FB2 /* [CP] Copy Pods Resources */ = {
@@ -393,7 +405,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		98EC253935D4D41D0F99D02E /* [CP] Embed Pods Frameworks */ = {
@@ -431,7 +443,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		B69663C64ACE1709A2FC9DC9 /* [CP] Copy Pods Resources */ = {
@@ -475,6 +487,7 @@
 				436295471F8E264F00F40C5B /* QRCodeViewController.swift in Sources */,
 				43A774761F97749000A151C1 /* QRScannerController.swift in Sources */,
 				436295431F8E264F00F40C5B /* AppDelegate.swift in Sources */,
+				4318FA981FA1E1B700FB5ECA /* MapViewController..swift in Sources */,
 				436295451F8E264F00F40C5B /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -642,12 +655,13 @@
 			baseConfigurationReference = D9A71A23C7C13D19AF6488B5 /* Pods-zizmart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5GN894ZM32;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = zizmart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zizmart.market.zizmart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -658,12 +672,13 @@
 			baseConfigurationReference = C9D9D961A7E8D7A3F3419F2A /* Pods-zizmart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5GN894ZM32;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = zizmart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zizmart.market.zizmart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
