@@ -16,6 +16,7 @@
 		4362954F1F8E264F00F40C5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4362954D1F8E264F00F40C5B /* LaunchScreen.storyboard */; };
 		4362955A1F8E264F00F40C5B /* zizmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436295591F8E264F00F40C5B /* zizmartTests.swift */; };
 		436295651F8E264F00F40C5B /* zizmartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436295641F8E264F00F40C5B /* zizmartUITests.swift */; };
+		43A16D2C1FA5367D003F35A1 /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A16D2B1FA5367D003F35A1 /* SearchResultsController.swift */; };
 		43A774761F97749000A151C1 /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A774751F97749000A151C1 /* QRScannerController.swift */; };
 		43CBD8051FA3D0860060F036 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CBD8041FA3D0860060F036 /* CoreLocation.framework */; };
 		43E17DED1F9219C30006183B /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E17DEC1F9219C30006183B /* RoundButton.swift */; };
@@ -60,6 +61,7 @@
 		436295601F8E264F00F40C5B /* zizmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zizmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		436295641F8E264F00F40C5B /* zizmartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zizmartUITests.swift; sourceTree = "<group>"; };
 		436295661F8E264F00F40C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43A16D2B1FA5367D003F35A1 /* SearchResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsController.swift; sourceTree = "<group>"; };
 		43A774751F97749000A151C1 /* QRScannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
 		43CBD8041FA3D0860060F036 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		43E17DEC1F9219C30006183B /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				4318FA971FA1E1B700FB5ECA /* MapViewController..swift */,
+				43A16D2B1FA5367D003F35A1 /* SearchResultsController.swift */,
 				43E17DEC1F9219C30006183B /* RoundButton.swift */,
 				436295421F8E264F00F40C5B /* AppDelegate.swift */,
 				436295441F8E264F00F40C5B /* FirstViewController.swift */,
@@ -486,6 +489,7 @@
 				43E17DED1F9219C30006183B /* RoundButton.swift in Sources */,
 				436295471F8E264F00F40C5B /* QRCodeViewController.swift in Sources */,
 				43A774761F97749000A151C1 /* QRScannerController.swift in Sources */,
+				43A16D2C1FA5367D003F35A1 /* SearchResultsController.swift in Sources */,
 				436295431F8E264F00F40C5B /* AppDelegate.swift in Sources */,
 				4318FA981FA1E1B700FB5ECA /* MapViewController..swift in Sources */,
 				436295451F8E264F00F40C5B /* FirstViewController.swift in Sources */,
