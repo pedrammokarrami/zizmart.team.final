@@ -45,7 +45,7 @@
 /* Begin PBXFileReference section */
 		25828D76D545DEC82E086FC4 /* Pods_zizmart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zizmart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C3C7E5E56A5247B3531ADDB /* Pods_zizmartUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zizmartUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4318FA971FA1E1B700FB5ECA /* MapViewController..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapViewController..swift; path = /Users/sarir/Desktop/ZIZMART/zizmart/zizmart/MapViewController..swift; sourceTree = "<absolute>"; };
+		4318FA971FA1E1B700FB5ECA /* MapViewController..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapViewController..swift; path = /Users/sarir/Desktop/ZIZMART/zizmart/MapViewController..swift; sourceTree = "<absolute>"; };
 		433D68481FA0D77F003C9675 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4362953F1F8E264F00F40C5B /* zizmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zizmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		436295421F8E264F00F40C5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -128,13 +128,11 @@
 		436295411F8E264F00F40C5B /* zizmart */ = {
 			isa = PBXGroup;
 			children = (
-				4318FA971FA1E1B700FB5ECA /* MapViewController..swift */,
-				43A16D2B1FA5367D003F35A1 /* SearchResultsController.swift */,
+				4370DDD61FA5C7A500BB4CC4 /* QR */,
+				4370DDD51FA5C76B00BB4CC4 /* MAP */,
 				43E17DEC1F9219C30006183B /* RoundButton.swift */,
 				436295421F8E264F00F40C5B /* AppDelegate.swift */,
 				436295441F8E264F00F40C5B /* FirstViewController.swift */,
-				43A774751F97749000A151C1 /* QRScannerController.swift */,
-				436295461F8E264F00F40C5B /* QRCodeViewController.swift */,
 				436295481F8E264F00F40C5B /* Main.storyboard */,
 				4362954B1F8E264F00F40C5B /* Assets.xcassets */,
 				4362954D1F8E264F00F40C5B /* LaunchScreen.storyboard */,
@@ -160,6 +158,25 @@
 				436295661F8E264F00F40C5B /* Info.plist */,
 			);
 			path = zizmartUITests;
+			sourceTree = "<group>";
+		};
+		4370DDD51FA5C76B00BB4CC4 /* MAP */ = {
+			isa = PBXGroup;
+			children = (
+				43A16D2B1FA5367D003F35A1 /* SearchResultsController.swift */,
+				4318FA971FA1E1B700FB5ECA /* MapViewController..swift */,
+			);
+			name = MAP;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4370DDD61FA5C7A500BB4CC4 /* QR */ = {
+			isa = PBXGroup;
+			children = (
+				436295461F8E264F00F40C5B /* QRCodeViewController.swift */,
+				43A774751F97749000A151C1 /* QRScannerController.swift */,
+			);
+			path = QR;
 			sourceTree = "<group>";
 		};
 		48FDE87672806B7E62B76C16 /* Pods */ = {
