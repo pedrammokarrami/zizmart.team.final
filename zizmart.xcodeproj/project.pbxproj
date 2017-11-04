@@ -61,6 +61,18 @@
 		436295601F8E264F00F40C5B /* zizmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zizmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		436295641F8E264F00F40C5B /* zizmartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zizmartUITests.swift; sourceTree = "<group>"; };
 		436295661F8E264F00F40C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		436E7E071FACBABB00859FD4 /* OnboardingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContentView.swift; sourceTree = "<group>"; };
+		436E7E091FACBABB00859FD4 /* OnboardingContantViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContantViewItem.swift; sourceTree = "<group>"; };
+		436E7E0C1FACBABB00859FD4 /* PageContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageContainer.swift; sourceTree = "<group>"; };
+		436E7E0E1FACBABB00859FD4 /* PageViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewItem.swift; sourceTree = "<group>"; };
+		436E7E0F1FACBABB00859FD4 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		436E7E101FACBABB00859FD4 /* PaperOnboardingDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperOnboardingDelegate.swift; sourceTree = "<group>"; };
+		436E7E111FACBABB00859FD4 /* PaperOnboardingDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperOnboardingDataSource.swift; sourceTree = "<group>"; };
+		436E7E131FACBABB00859FD4 /* GestureControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureControl.swift; sourceTree = "<group>"; };
+		436E7E141FACBABB00859FD4 /* PaperOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperOnboarding.swift; sourceTree = "<group>"; };
+		436E7E161FACBABB00859FD4 /* ConstraintsHalper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintsHalper.swift; sourceTree = "<group>"; };
+		436E7E171FACBABB00859FD4 /* Configuring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuring.swift; sourceTree = "<group>"; };
+		436E7E191FACBABB00859FD4 /* FillAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillAnimationView.swift; sourceTree = "<group>"; };
 		43A16D2B1FA5367D003F35A1 /* SearchResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsController.swift; sourceTree = "<group>"; };
 		43A774751F97749000A151C1 /* QRScannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
 		43CBD8041FA3D0860060F036 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -130,8 +142,9 @@
 			children = (
 				4370DDD61FA5C7A500BB4CC4 /* QR */,
 				4370DDD51FA5C76B00BB4CC4 /* MAP */,
-				43E17DEC1F9219C30006183B /* RoundButton.swift */,
+				436E7E051FACBABB00859FD4 /* Source */,
 				436295421F8E264F00F40C5B /* AppDelegate.swift */,
+				43E17DEC1F9219C30006183B /* RoundButton.swift */,
 				436295441F8E264F00F40C5B /* FirstViewController.swift */,
 				436295481F8E264F00F40C5B /* Main.storyboard */,
 				4362954B1F8E264F00F40C5B /* Assets.xcassets */,
@@ -158,6 +171,89 @@
 				436295661F8E264F00F40C5B /* Info.plist */,
 			);
 			path = zizmartUITests;
+			sourceTree = "<group>";
+		};
+		436E7E051FACBABB00859FD4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				436E7E061FACBABB00859FD4 /* OnboardingContantView */,
+				436E7E0A1FACBABB00859FD4 /* PageView */,
+				436E7E101FACBABB00859FD4 /* PaperOnboardingDelegate.swift */,
+				436E7E111FACBABB00859FD4 /* PaperOnboardingDataSource.swift */,
+				436E7E121FACBABB00859FD4 /* GestureControl */,
+				436E7E141FACBABB00859FD4 /* PaperOnboarding.swift */,
+				436E7E151FACBABB00859FD4 /* Helpers */,
+				436E7E181FACBABB00859FD4 /* FillAnimatinView */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		436E7E061FACBABB00859FD4 /* OnboardingContantView */ = {
+			isa = PBXGroup;
+			children = (
+				436E7E071FACBABB00859FD4 /* OnboardingContentView.swift */,
+				436E7E081FACBABB00859FD4 /* Item */,
+			);
+			path = OnboardingContantView;
+			sourceTree = "<group>";
+		};
+		436E7E081FACBABB00859FD4 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				436E7E091FACBABB00859FD4 /* OnboardingContantViewItem.swift */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		436E7E0A1FACBABB00859FD4 /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				436E7E0B1FACBABB00859FD4 /* PageContainerView */,
+				436E7E0D1FACBABB00859FD4 /* Item */,
+				436E7E0F1FACBABB00859FD4 /* PageView.swift */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
+		436E7E0B1FACBABB00859FD4 /* PageContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				436E7E0C1FACBABB00859FD4 /* PageContainer.swift */,
+			);
+			path = PageContainerView;
+			sourceTree = "<group>";
+		};
+		436E7E0D1FACBABB00859FD4 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				436E7E0E1FACBABB00859FD4 /* PageViewItem.swift */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		436E7E121FACBABB00859FD4 /* GestureControl */ = {
+			isa = PBXGroup;
+			children = (
+				436E7E131FACBABB00859FD4 /* GestureControl.swift */,
+			);
+			path = GestureControl;
+			sourceTree = "<group>";
+		};
+		436E7E151FACBABB00859FD4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				436E7E161FACBABB00859FD4 /* ConstraintsHalper.swift */,
+				436E7E171FACBABB00859FD4 /* Configuring.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		436E7E181FACBABB00859FD4 /* FillAnimatinView */ = {
+			isa = PBXGroup;
+			children = (
+				436E7E191FACBABB00859FD4 /* FillAnimationView.swift */,
+			);
+			path = FillAnimatinView;
 			sourceTree = "<group>";
 		};
 		4370DDD51FA5C76B00BB4CC4 /* MAP */ = {
