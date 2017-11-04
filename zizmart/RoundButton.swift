@@ -28,7 +28,23 @@ class RoundButton: UIButton {
                 self.layer.borderColor = borderColor.cgColor
             }
     }
+    @IBInspectable public var shadowColor: UIColor?{
+        didSet{
+            layer.shadowColor = shadowColor?.cgColor
+        }
     }
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        titleLabel?.adjustsFontForContentSizeCategory = true
+        contentEdgeInsets = UIEdgeInsetsMake(5, 16, 5, 16)
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+    }
+}
+
 
 
 
