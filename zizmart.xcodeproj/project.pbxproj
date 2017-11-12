@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4318FA981FA1E1B700FB5ECA /* MapViewController..swift in Sources */ = {isa = PBXBuildFile; fileRef = 4318FA971FA1E1B700FB5ECA /* MapViewController..swift */; };
+		4333058A1FB08503002C047A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433305891FB08503002C047A /* ViewController.swift */; };
 		436295431F8E264F00F40C5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436295421F8E264F00F40C5B /* AppDelegate.swift */; };
 		436295451F8E264F00F40C5B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436295441F8E264F00F40C5B /* FirstViewController.swift */; };
 		436295471F8E264F00F40C5B /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436295461F8E264F00F40C5B /* QRCodeViewController.swift */; };
@@ -46,6 +47,7 @@
 		25828D76D545DEC82E086FC4 /* Pods_zizmart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zizmart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C3C7E5E56A5247B3531ADDB /* Pods_zizmartUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zizmartUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4318FA971FA1E1B700FB5ECA /* MapViewController..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapViewController..swift; path = /Users/sarir/Desktop/ZIZMART/zizmart/MapViewController..swift; sourceTree = "<absolute>"; };
+		433305891FB08503002C047A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		433D68481FA0D77F003C9675 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4362953F1F8E264F00F40C5B /* zizmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zizmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		436295421F8E264F00F40C5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -261,6 +263,7 @@
 			children = (
 				43A16D2B1FA5367D003F35A1 /* SearchResultsController.swift */,
 				4318FA971FA1E1B700FB5ECA /* MapViewController..swift */,
+				433305891FB08503002C047A /* ViewController.swift */,
 			);
 			name = MAP;
 			path = ..;
@@ -605,6 +608,7 @@
 				43A16D2C1FA5367D003F35A1 /* SearchResultsController.swift in Sources */,
 				436295431F8E264F00F40C5B /* AppDelegate.swift in Sources */,
 				4318FA981FA1E1B700FB5ECA /* MapViewController..swift in Sources */,
+				4333058A1FB08503002C047A /* ViewController.swift in Sources */,
 				436295451F8E264F00F40C5B /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

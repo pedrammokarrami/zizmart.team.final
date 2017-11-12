@@ -30,6 +30,8 @@
 	<string>Main</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Hey! i want to know where you&apos;re @!</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Yes</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

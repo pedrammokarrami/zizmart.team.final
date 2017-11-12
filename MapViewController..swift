@@ -14,6 +14,22 @@ import GooglePlaces
 
 class MapViewController: UIViewController , UISearchBarDelegate , LocateOnTheMap,GMSAutocompleteFetcherDelegate {
     
+    var locationManager = CLLocationManager()
+    var currentLocation: CLLocation?
+    var mapView: GMSMapView!
+    var placesClient: GMSPlacesClient!
+    var zoomLevel: Float = 25.0
+    
+    var likelyPlaces: [GMSPlace] = []
+    
+    // The currently selected place.
+    var selectedPlace: GMSPlace?
+    
+    // A default location to use when location permission is not granted.
+    let defaultLocation = CLLocation(latitude: 35.7178, longitude: 51.3413)
+    
+    
+    
     public func didFailAutocompleteWithError(_ error: Error) {
         //        resultText?.text = error.localizedDescription
     }
@@ -85,18 +101,24 @@ class MapViewController: UIViewController , UISearchBarDelegate , LocateOnTheMap
         
         DispatchQueue.main.async { () -> Void in
             
-            let position = CLLocationCoordinate2DMake(lat, lon)
+            let position = CLLocationCoordinate2DMake(lat,lon)
             let marker = GMSMarker(position: position)
             
-            let camera = GMSCameraPosition.camera(withLatitude: lat, longitude: lon, zoom: 10)
+            let camera = GMSCameraPosition.camera(withLatitude: lat, longitude: lon, zoom: 17)
             self.googleMapsView.camera = camera
             
             marker.title = "Address : \(title)"
             marker.map = self.googleMapsView
+            marker.icon = GMSMarker.markerImage(with: .red)
+            
+            
             
         }
         
+        
+        
     }
+    
     
     /**
      Searchbar when text change
