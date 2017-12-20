@@ -13,12 +13,14 @@
 		436295451F8E264F00F40C5B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436295441F8E264F00F40C5B /* FirstViewController.swift */; };
 		436295471F8E264F00F40C5B /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436295461F8E264F00F40C5B /* QRCodeViewController.swift */; };
 		4362954A1F8E264F00F40C5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436295481F8E264F00F40C5B /* Main.storyboard */; };
-		4362954C1F8E264F00F40C5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4362954B1F8E264F00F40C5B /* Assets.xcassets */; };
 		4362954F1F8E264F00F40C5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4362954D1F8E264F00F40C5B /* LaunchScreen.storyboard */; };
 		4362955A1F8E264F00F40C5B /* zizmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436295591F8E264F00F40C5B /* zizmartTests.swift */; };
 		436295651F8E264F00F40C5B /* zizmartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436295641F8E264F00F40C5B /* zizmartUITests.swift */; };
+		436C7B1D1FC6042100A0C4FB /* mahsolat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436C7B1C1FC6042100A0C4FB /* mahsolat.swift */; };
+		436C7B211FC6069300A0C4FB /* MahsolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436C7B201FC6069300A0C4FB /* MahsolViewController.swift */; };
 		43A16D2C1FA5367D003F35A1 /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A16D2B1FA5367D003F35A1 /* SearchResultsController.swift */; };
 		43A774761F97749000A151C1 /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A774751F97749000A151C1 /* QRScannerController.swift */; };
+		43C3EA0C1FD81B9900BBD832 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C3EA0B1FD81B9900BBD832 /* AudioToolbox.framework */; };
 		43CBD8051FA3D0860060F036 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CBD8041FA3D0860060F036 /* CoreLocation.framework */; };
 		43E17DED1F9219C30006183B /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E17DEC1F9219C30006183B /* RoundButton.swift */; };
 		50CEA8D79BE31A7EC063EF4B /* Pods_zizmartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2CF974C4D074EDE19655AF /* Pods_zizmartTests.framework */; };
@@ -54,7 +56,6 @@
 		436295441F8E264F00F40C5B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		436295461F8E264F00F40C5B /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
 		436295491F8E264F00F40C5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4362954B1F8E264F00F40C5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4362954E1F8E264F00F40C5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		436295501F8E264F00F40C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		436295551F8E264F00F40C5B /* zizmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zizmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +64,8 @@
 		436295601F8E264F00F40C5B /* zizmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zizmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		436295641F8E264F00F40C5B /* zizmartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zizmartUITests.swift; sourceTree = "<group>"; };
 		436295661F8E264F00F40C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		436C7B1C1FC6042100A0C4FB /* mahsolat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mahsolat.swift; sourceTree = "<group>"; };
+		436C7B201FC6069300A0C4FB /* MahsolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MahsolViewController.swift; sourceTree = "<group>"; };
 		436E7E071FACBABB00859FD4 /* OnboardingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContentView.swift; sourceTree = "<group>"; };
 		436E7E091FACBABB00859FD4 /* OnboardingContantViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContantViewItem.swift; sourceTree = "<group>"; };
 		436E7E0C1FACBABB00859FD4 /* PageContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageContainer.swift; sourceTree = "<group>"; };
@@ -75,8 +78,11 @@
 		436E7E161FACBABB00859FD4 /* ConstraintsHalper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintsHalper.swift; sourceTree = "<group>"; };
 		436E7E171FACBABB00859FD4 /* Configuring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuring.swift; sourceTree = "<group>"; };
 		436E7E191FACBABB00859FD4 /* FillAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillAnimationView.swift; sourceTree = "<group>"; };
+		438D25BE1FE27B1C00B25E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43A16D2B1FA5367D003F35A1 /* SearchResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsController.swift; sourceTree = "<group>"; };
 		43A774751F97749000A151C1 /* QRScannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
+		43C3EA0A1FD81B9900BBD832 /* zizmart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = zizmart.entitlements; sourceTree = "<group>"; };
+		43C3EA0B1FD81B9900BBD832 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		43CBD8041FA3D0860060F036 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		43E17DEC1F9219C30006183B /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		686CCFF948C3EFE64424640A /* Pods-zizmartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zizmartTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-zizmartTests/Pods-zizmartTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +101,7 @@
 			files = (
 				43CBD8051FA3D0860060F036 /* CoreLocation.framework in Frameworks */,
 				6740C7A586867DCC6DC1F098 /* Pods_zizmart.framework in Frameworks */,
+				43C3EA0C1FD81B9900BBD832 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +149,8 @@
 		436295411F8E264F00F40C5B /* zizmart */ = {
 			isa = PBXGroup;
 			children = (
+				43C3EA0A1FD81B9900BBD832 /* zizmart.entitlements */,
+				43C3EA091FD6B0F500BBD832 /* sound */,
 				4370DDD61FA5C7A500BB4CC4 /* QR */,
 				4370DDD51FA5C76B00BB4CC4 /* MAP */,
 				436E7E051FACBABB00859FD4 /* Source */,
@@ -149,10 +158,12 @@
 				43E17DEC1F9219C30006183B /* RoundButton.swift */,
 				436295441F8E264F00F40C5B /* FirstViewController.swift */,
 				436295481F8E264F00F40C5B /* Main.storyboard */,
-				4362954B1F8E264F00F40C5B /* Assets.xcassets */,
+				438D25BE1FE27B1C00B25E26 /* Assets.xcassets */,
 				4362954D1F8E264F00F40C5B /* LaunchScreen.storyboard */,
 				433D68481FA0D77F003C9675 /* GoogleService-Info.plist */,
 				436295501F8E264F00F40C5B /* Info.plist */,
+				436C7B1C1FC6042100A0C4FB /* mahsolat.swift */,
+				436C7B201FC6069300A0C4FB /* MahsolViewController.swift */,
 			);
 			path = zizmart;
 			sourceTree = "<group>";
@@ -278,6 +289,14 @@
 			path = QR;
 			sourceTree = "<group>";
 		};
+		43C3EA091FD6B0F500BBD832 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = sound;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		48FDE87672806B7E62B76C16 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -294,6 +313,7 @@
 		D186AABC67704B09B0603ADF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				43C3EA0B1FD81B9900BBD832 /* AudioToolbox.framework */,
 				43CBD8041FA3D0860060F036 /* CoreLocation.framework */,
 				25828D76D545DEC82E086FC4 /* Pods_zizmart.framework */,
 				6C2CF974C4D074EDE19655AF /* Pods_zizmartTests.framework */,
@@ -384,6 +404,9 @@
 							com.apple.BackgroundModes = {
 								enabled = 1;
 							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
 						};
 					};
 					436295541F8E264F00F40C5B = {
@@ -424,7 +447,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4362954F1F8E264F00F40C5B /* LaunchScreen.storyboard in Resources */,
-				4362954C1F8E264F00F40C5B /* Assets.xcassets in Resources */,
 				4362954A1F8E264F00F40C5B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -604,7 +626,9 @@
 			files = (
 				43E17DED1F9219C30006183B /* RoundButton.swift in Sources */,
 				436295471F8E264F00F40C5B /* QRCodeViewController.swift in Sources */,
+				436C7B1D1FC6042100A0C4FB /* mahsolat.swift in Sources */,
 				43A774761F97749000A151C1 /* QRScannerController.swift in Sources */,
+				436C7B211FC6069300A0C4FB /* MahsolViewController.swift in Sources */,
 				43A16D2C1FA5367D003F35A1 /* SearchResultsController.swift in Sources */,
 				436295431F8E264F00F40C5B /* AppDelegate.swift in Sources */,
 				4318FA981FA1E1B700FB5ECA /* MapViewController..swift in Sources */,
@@ -776,6 +800,7 @@
 			baseConfigurationReference = D9A71A23C7C13D19AF6488B5 /* Pods-zizmart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = zizmart/zizmart.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = zizmart/Info.plist;
@@ -793,6 +818,7 @@
 			baseConfigurationReference = C9D9D961A7E8D7A3F3419F2A /* Pods-zizmart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = zizmart/zizmart.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = zizmart/Info.plist;
